@@ -1,0 +1,7 @@
+<div class="search-bar">
+    <span><b>Search:</b></span>
+    <input type="text" #box (input)="changeSearchVal($event)">
+    <br>
+    <p [hidden]="showSearch">You are searching for : {{val}}</p>
+   
+</div>

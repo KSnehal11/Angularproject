@@ -1,0 +1,21 @@
+.body{
+    display: flex;
+    height: 280px;
+    padding: 30px 40px;
+    background-color: rgb(253, 227, 231);
+    justify-content: center;
+}
+img{
+    width: 200px;
+}
+.slogan{
+    width: 420px;
+    margin-left: 50px;
+    text-align: center;
+    color: rgb(8, 8, 82);
+}
+
+h2 {
+    font-size: 45px;
+    line-height: 60px;
+}
